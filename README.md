@@ -1,9 +1,13 @@
-# Tasnim Hamdeni — public lesson data
+# Public lesson data
 
-This repository contains the public `catalog.json` and lesson documents for Tasnim Hamdeni's lesson library. It starts empty: there are no sample subjects or lessons.
+Website: https://tasnim-hamdeni.github.io/
 
-Documents are stored as `documents/<subject-id>/<unique-uuid>.pdf` or `.pptx`. The website admin publishes the document and catalog together in one Git commit. Do not rename files manually without updating the catalog.
+Teacher: https://tasnim-hamdeni.github.io/tasnim/
 
-**All content is public. Never upload private student information.** Removing a lesson removes its current file and catalog entry; Git history, caches, and downloaded copies may retain it.
+`catalog.json` stores **subjects → chapters → documents**. The document array is named `lessons` for compatibility. New files use `documents/<subject-id>/<chapter-id>/<unique-id>.pdf` or `.pptx`. The teacher page commits each file and its catalog entry together. Do not rename documents manually.
 
-The teacher token must be fine-grained, scoped to this repository only, with Contents: Read and write (plus GitHub's automatic Metadata: Read-only). Never commit tokens. No token is required for students.
+Version 1 catalogs remain readable. Existing documents appear in a General chapter with unchanged file URLs; the next teacher edit writes version 2. Never replace a live catalog with an empty starter.
+
+All content is public. Do not upload private student information. Removed documents may remain in Git history or downloaded copies.
+
+Teacher access uses an expiring fine-grained token scoped only to this repository, with Contents: Read and write (Metadata read access is automatic). Enter it only on the teacher page. Never commit tokens. Students do not need a token.
