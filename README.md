@@ -1,13 +1,11 @@
 # Public lesson data
 
-Website: https://tasnim-hamdeni.github.io/
+Students: https://tasnim-hamdeni.github.io/
 
 Teacher: https://tasnim-hamdeni.github.io/tasnim/
 
-`catalog.json` stores **subjects → chapters → documents**. The document array is named `lessons` for compatibility. New files use `documents/<subject-id>/<chapter-id>/<unique-id>.pdf` or `.pptx`. The teacher page commits each file and its catalog entry together. Do not rename documents manually.
+The catalog stores subjects → chapters → documents. New documents use documents/<subject-id>/<chapter-id>/<unique-id>.pdf or .pptx. Uploads update catalog and file in one Git commit. Original document paths remain supported; version 1 catalogs upgrade safely on the next edit. Never replace a live catalog with an empty starter.
 
-Version 1 catalogs remain readable. Existing documents appear in a General chapter with unchanged file URLs; the next teacher edit writes version 2. Never replace a live catalog with an empty starter.
+Tasnim signs in using her access code. The separate authentication service holds the repository connection, so she does not need to create or paste a GitHub token. The site owner connects storage once on the service’s setup page and reconnects if its credential expires.
 
-All content is public. Do not upload private student information. Removed documents may remain in Git history or downloaded copies.
-
-Teacher access uses an expiring fine-grained token scoped only to this repository, with Contents: Read and write (Metadata read access is automatic). Enter it only on the teacher page. Never commit tokens. Students do not need a token.
+All content is public. Do not upload private student information. Removed documents may remain in Git history and downloaded copies. Never commit credentials.
