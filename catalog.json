@@ -68,6 +68,11 @@
       "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
       "name": "Linear systems",
       "example": true
+    },
+    {
+      "id": "1b661742-0e35-4962-a5ac-51cd63dc9391",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "name": "new chapter stat"
     }
   ],
   "lessons": [
