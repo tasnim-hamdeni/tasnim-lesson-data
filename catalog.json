@@ -1,5 +1,279 @@
 {
-  "version": 1,
-  "subjects": [],
-  "lessons": []
+  "version": 2,
+  "subjects": [
+    {
+      "id": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "name": "AI"
+    },
+    {
+      "id": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "name": "Statistics"
+    },
+    {
+      "id": "3563e610-544c-413c-8265-2a9c704a259a",
+      "name": "Algebra"
+    }
+  ],
+  "chapters": [
+    {
+      "id": "ef9ce2f4-2892-4a9b-b314-afc0be7d596b",
+      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "name": "Foundations of AI",
+      "example": true
+    },
+    {
+      "id": "4d5dfc96-4da5-4ae0-bd02-11a35a1a527b",
+      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "name": "Machine learning",
+      "example": true
+    },
+    {
+      "id": "8921090f-e3a0-49f1-aeaf-ebc9fccc7628",
+      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "name": "Neural networks",
+      "example": true
+    },
+    {
+      "id": "7c7880c1-afc6-431c-bc26-d1c642083828",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "name": "Descriptive statistics",
+      "example": true
+    },
+    {
+      "id": "ab6f5728-ec61-4422-ae15-0e6db03b7d5a",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "name": "Probability",
+      "example": true
+    },
+    {
+      "id": "7acff38a-4a63-4246-bd93-5d43e5e33356",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "name": "Statistical inference",
+      "example": true
+    },
+    {
+      "id": "1ff8bcf8-470f-4cec-985b-a4e2eeb6a458",
+      "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
+      "name": "Equations & functions",
+      "example": true
+    },
+    {
+      "id": "072c07ec-69ff-43c0-b90a-afebb03074c2",
+      "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
+      "name": "Vectors & matrices",
+      "example": true
+    },
+    {
+      "id": "1eedaeb0-91b2-4481-ad7f-e670c57148c6",
+      "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
+      "name": "Linear systems",
+      "example": true
+    }
+  ],
+  "lessons": [
+    {
+      "id": "91ec7dcd-05ab-4881-b133-9c0474839e7f",
+      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "chapterId": "ef9ce2f4-2892-4a9b-b314-afc0be7d596b",
+      "title": "Practice exercises",
+      "type": "pdf",
+      "originalName": "example-ai-1-practice.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/33b1e7ee-97c0-4d9b-ae58-8967ace89758/ef9ce2f4-2892-4a9b-b314-afc0be7d596b/91ec7dcd-05ab-4881-b133-9c0474839e7f.pdf",
+      "example": true
+    },
+    {
+      "id": "1c065ebe-0f40-47e4-8826-55810cc9d3b9",
+      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "chapterId": "4d5dfc96-4da5-4ae0-bd02-11a35a1a527b",
+      "title": "Course notes",
+      "type": "pdf",
+      "originalName": "example-ai-2-notes.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/33b1e7ee-97c0-4d9b-ae58-8967ace89758/4d5dfc96-4da5-4ae0-bd02-11a35a1a527b/1c065ebe-0f40-47e4-8826-55810cc9d3b9.pdf",
+      "example": true
+    },
+    {
+      "id": "7e792911-ccbf-461c-bf65-7dfbeaa7b5a2",
+      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "chapterId": "4d5dfc96-4da5-4ae0-bd02-11a35a1a527b",
+      "title": "Practice exercises",
+      "type": "pdf",
+      "originalName": "example-ai-2-practice.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/33b1e7ee-97c0-4d9b-ae58-8967ace89758/4d5dfc96-4da5-4ae0-bd02-11a35a1a527b/7e792911-ccbf-461c-bf65-7dfbeaa7b5a2.pdf",
+      "example": true
+    },
+    {
+      "id": "236e50fe-ec7a-423a-bdb1-324af98888d4",
+      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "chapterId": "8921090f-e3a0-49f1-aeaf-ebc9fccc7628",
+      "title": "Course notes",
+      "type": "pdf",
+      "originalName": "example-ai-3-notes.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/33b1e7ee-97c0-4d9b-ae58-8967ace89758/8921090f-e3a0-49f1-aeaf-ebc9fccc7628/236e50fe-ec7a-423a-bdb1-324af98888d4.pdf",
+      "example": true
+    },
+    {
+      "id": "6e48fe65-8bc2-41a6-b19c-62a337cc8507",
+      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "chapterId": "8921090f-e3a0-49f1-aeaf-ebc9fccc7628",
+      "title": "Practice exercises",
+      "type": "pdf",
+      "originalName": "example-ai-3-practice.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/33b1e7ee-97c0-4d9b-ae58-8967ace89758/8921090f-e3a0-49f1-aeaf-ebc9fccc7628/6e48fe65-8bc2-41a6-b19c-62a337cc8507.pdf",
+      "example": true
+    },
+    {
+      "id": "e572fc6e-1c63-4a94-a7b3-ad964a7fa747",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "chapterId": "7c7880c1-afc6-431c-bc26-d1c642083828",
+      "title": "Course notes",
+      "type": "pdf",
+      "originalName": "example-statistics-1-notes.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/b8adddac-4b89-47af-8af0-dba06f38e8d7/7c7880c1-afc6-431c-bc26-d1c642083828/e572fc6e-1c63-4a94-a7b3-ad964a7fa747.pdf",
+      "example": true
+    },
+    {
+      "id": "7f1c84bc-f553-405f-aec0-660981f9ff68",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "chapterId": "7c7880c1-afc6-431c-bc26-d1c642083828",
+      "title": "Practice exercises",
+      "type": "pdf",
+      "originalName": "example-statistics-1-practice.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/b8adddac-4b89-47af-8af0-dba06f38e8d7/7c7880c1-afc6-431c-bc26-d1c642083828/7f1c84bc-f553-405f-aec0-660981f9ff68.pdf",
+      "example": true
+    },
+    {
+      "id": "5ffceadb-ecd4-4d63-870d-9fa4041e7af3",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "chapterId": "ab6f5728-ec61-4422-ae15-0e6db03b7d5a",
+      "title": "Course notes",
+      "type": "pdf",
+      "originalName": "example-statistics-2-notes.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/b8adddac-4b89-47af-8af0-dba06f38e8d7/ab6f5728-ec61-4422-ae15-0e6db03b7d5a/5ffceadb-ecd4-4d63-870d-9fa4041e7af3.pdf",
+      "example": true
+    },
+    {
+      "id": "dd1da3f8-cda2-4ee0-9661-256baf734a8b",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "chapterId": "ab6f5728-ec61-4422-ae15-0e6db03b7d5a",
+      "title": "Practice exercises",
+      "type": "pdf",
+      "originalName": "example-statistics-2-practice.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/b8adddac-4b89-47af-8af0-dba06f38e8d7/ab6f5728-ec61-4422-ae15-0e6db03b7d5a/dd1da3f8-cda2-4ee0-9661-256baf734a8b.pdf",
+      "example": true
+    },
+    {
+      "id": "68788af4-6967-49c8-9316-44f6b4beccfd",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "chapterId": "7acff38a-4a63-4246-bd93-5d43e5e33356",
+      "title": "Course notes",
+      "type": "pdf",
+      "originalName": "example-statistics-3-notes.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/b8adddac-4b89-47af-8af0-dba06f38e8d7/7acff38a-4a63-4246-bd93-5d43e5e33356/68788af4-6967-49c8-9316-44f6b4beccfd.pdf",
+      "example": true
+    },
+    {
+      "id": "57524cc6-8438-4450-ad9e-480abdc3b1b0",
+      "subjectId": "b8adddac-4b89-47af-8af0-dba06f38e8d7",
+      "chapterId": "7acff38a-4a63-4246-bd93-5d43e5e33356",
+      "title": "Practice exercises",
+      "type": "pdf",
+      "originalName": "example-statistics-3-practice.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/b8adddac-4b89-47af-8af0-dba06f38e8d7/7acff38a-4a63-4246-bd93-5d43e5e33356/57524cc6-8438-4450-ad9e-480abdc3b1b0.pdf",
+      "example": true
+    },
+    {
+      "id": "3b22991b-72f4-4e09-9090-7f5360fb4d88",
+      "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
+      "chapterId": "1ff8bcf8-470f-4cec-985b-a4e2eeb6a458",
+      "title": "Course notes",
+      "type": "pdf",
+      "originalName": "example-algebra-1-notes.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/3563e610-544c-413c-8265-2a9c704a259a/1ff8bcf8-470f-4cec-985b-a4e2eeb6a458/3b22991b-72f4-4e09-9090-7f5360fb4d88.pdf",
+      "example": true
+    },
+    {
+      "id": "8ba21b6d-71c8-4a34-a3e0-eedbe988cf17",
+      "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
+      "chapterId": "1ff8bcf8-470f-4cec-985b-a4e2eeb6a458",
+      "title": "Practice exercises",
+      "type": "pdf",
+      "originalName": "example-algebra-1-practice.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/3563e610-544c-413c-8265-2a9c704a259a/1ff8bcf8-470f-4cec-985b-a4e2eeb6a458/8ba21b6d-71c8-4a34-a3e0-eedbe988cf17.pdf",
+      "example": true
+    },
+    {
+      "id": "c519c407-a20b-4278-9c44-6e43a396ca8c",
+      "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
+      "chapterId": "072c07ec-69ff-43c0-b90a-afebb03074c2",
+      "title": "Course notes",
+      "type": "pdf",
+      "originalName": "example-algebra-2-notes.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/3563e610-544c-413c-8265-2a9c704a259a/072c07ec-69ff-43c0-b90a-afebb03074c2/c519c407-a20b-4278-9c44-6e43a396ca8c.pdf",
+      "example": true
+    },
+    {
+      "id": "2a00e90a-98ee-4f5b-bba4-345404e5313f",
+      "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
+      "chapterId": "072c07ec-69ff-43c0-b90a-afebb03074c2",
+      "title": "Practice exercises",
+      "type": "pdf",
+      "originalName": "example-algebra-2-practice.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/3563e610-544c-413c-8265-2a9c704a259a/072c07ec-69ff-43c0-b90a-afebb03074c2/2a00e90a-98ee-4f5b-bba4-345404e5313f.pdf",
+      "example": true
+    },
+    {
+      "id": "02fffc73-afc7-4257-97a9-8b277ff7e207",
+      "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
+      "chapterId": "1eedaeb0-91b2-4481-ad7f-e670c57148c6",
+      "title": "Course notes",
+      "type": "pdf",
+      "originalName": "example-algebra-3-notes.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/3563e610-544c-413c-8265-2a9c704a259a/1eedaeb0-91b2-4481-ad7f-e670c57148c6/02fffc73-afc7-4257-97a9-8b277ff7e207.pdf",
+      "example": true
+    },
+    {
+      "id": "96d23522-7c7f-43d0-97c5-88ac673ccf79",
+      "subjectId": "3563e610-544c-413c-8265-2a9c704a259a",
+      "chapterId": "1eedaeb0-91b2-4481-ad7f-e670c57148c6",
+      "title": "Practice exercises",
+      "type": "pdf",
+      "originalName": "example-algebra-3-practice.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:18:42.247264Z",
+      "path": "documents/3563e610-544c-413c-8265-2a9c704a259a/1eedaeb0-91b2-4481-ad7f-e670c57148c6/96d23522-7c7f-43d0-97c5-88ac673ccf79.pdf",
+      "example": true
+    }
+  ]
 }
