@@ -1,11 +1,11 @@
-# Public lesson data
+# Public lesson catalog and documents
 
 Students: https://tasnim-hamdeni.github.io/
 
 Teacher: https://tasnim-hamdeni.github.io/tasnim/
 
-The catalog stores subjects → chapters → documents. New documents use documents/<subject-id>/<chapter-id>/<unique-id>.pdf or .pptx. Uploads update catalog and file in one Git commit. Original document paths remain supported; version 1 catalogs upgrade safely on the next edit. Never replace a live catalog with an empty starter.
+The catalog organizes subjects → chapters → documents. Subjects automatically become the website’s top menu. AI, Statistics and Algebra currently include owner-requested example chapters and blank PDFs; example documents are labeled in the catalog and website. Tasnim can remove these and add her real course resources.
 
-Tasnim signs in using her access code. The separate authentication service holds the repository connection, so she does not need to create or paste a GitHub token. The site owner connects storage once on the service’s setup page and reconnects if its credential expires.
+Manage content through the teacher page using the access code. New PDFs and PPTX files are stored under documents/<subject-id>/<chapter-id>/<unique-id>.<type>. Each upload updates its file and catalog together. Original paths and version 1 catalogs remain supported. Never replace a live catalog with the example starter from the ZIP.
 
-All content is public. Do not upload private student information. Removed documents may remain in Git history and downloaded copies. Never commit credentials.
+All content is public. Never publish private student information or credentials. Git history and downloaded copies can retain removed content. The separate authentication service holds the repository connection; Tasnim does not need a GitHub token.

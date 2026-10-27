@@ -72,6 +72,18 @@
   ],
   "lessons": [
     {
+      "id": "b19c825c-1c0e-43d2-9fed-18f8bfb32c74",
+      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
+      "chapterId": "ef9ce2f4-2892-4a9b-b314-afc0be7d596b",
+      "title": "Course notes",
+      "type": "pdf",
+      "originalName": "example-ai-1-notes.pdf",
+      "size": 577,
+      "uploadedAt": "2026-10-27T10:30:09.141Z",
+      "path": "documents/33b1e7ee-97c0-4d9b-ae58-8967ace89758/ef9ce2f4-2892-4a9b-b314-afc0be7d596b/b19c825c-1c0e-43d2-9fed-18f8bfb32c74.pdf",
+      "example": true
+    },
+    {
       "id": "91ec7dcd-05ab-4881-b133-9c0474839e7f",
       "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
       "chapterId": "ef9ce2f4-2892-4a9b-b314-afc0be7d596b",
@@ -274,17 +286,6 @@
       "uploadedAt": "2026-10-27T10:18:42.247264Z",
       "path": "documents/3563e610-544c-413c-8265-2a9c704a259a/1eedaeb0-91b2-4481-ad7f-e670c57148c6/96d23522-7c7f-43d0-97c5-88ac673ccf79.pdf",
       "example": true
-    },
-    {
-      "id": "b19c825c-1c0e-43d2-9fed-18f8bfb32c74",
-      "subjectId": "33b1e7ee-97c0-4d9b-ae58-8967ace89758",
-      "chapterId": "ef9ce2f4-2892-4a9b-b314-afc0be7d596b",
-      "title": "Course notes (blank example)",
-      "type": "pdf",
-      "originalName": "blank-example.pdf",
-      "size": 577,
-      "uploadedAt": "2026-10-27T10:30:09.141Z",
-      "path": "documents/33b1e7ee-97c0-4d9b-ae58-8967ace89758/ef9ce2f4-2892-4a9b-b314-afc0be7d596b/b19c825c-1c0e-43d2-9fed-18f8bfb32c74.pdf"
     }
   ]
 }
